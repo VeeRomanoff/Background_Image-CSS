@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  margin: 0;
+  border: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background-color: aqua;
+  background-image: url("../images/landscape.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 200%;
+}
+.hero {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .hero {
+    /* display: block; */
+    text-align: center;
+  }
+}
+
+.text {
+  margin-top: 50px;
+}
+.text > h1 {
+  margin-bottom: 10px;
+}
