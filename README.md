@@ -1,2 +1,1 @@
-# CSS-Explore
-Here I work / explore CSS possibilities, and share my discoveries!
+Here i was learning to use bacgkround images. I think it worked out pretty well.
